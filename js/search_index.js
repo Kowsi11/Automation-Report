@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Category delete scenarios":["specs/categorydeletescenari.html"]}};
