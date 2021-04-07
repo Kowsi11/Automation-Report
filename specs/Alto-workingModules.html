@@ -48,9 +48,9 @@
           <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
       </div>
       <div class="report_test-result scenarios">
-          <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">13</span></div>
-          <div class="fail scenario-stats" data-status="failed"><span class="value">3</span></div>
-          <div class="pass scenario-stats" data-status="passed"><span class="value">10</span></div>
+          <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">14</span></div>
+          <div class="fail scenario-stats" data-status="failed"><span class="value">1</span></div>
+          <div class="pass scenario-stats" data-status="passed"><span class="value">13</span></div>
           <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
       </div>
     </div>
@@ -67,11 +67,11 @@
         </li>
         <li>
           <label>Total Time </label>
-          <span>00:04:02</span>
+          <span>00:04:58</span>
         </li>
         <li>
           <label>Generated On </label>
-          <span>Mar 31, 2021 at 6:49pm</span>
+          <span>Apr 7, 2021 at 6:25pm</span>
         </li>
       </ul>
       
@@ -110,7 +110,7 @@
               <li class='failed spec-name'>
             
               <span id="scenarioName" class="scenarioname">Alto end to end testing</span>
-              <span id="time" class="time">00:03:58</span>
+              <span id="time" class="time">00:04:55</span>
             </li>
           </a>
           
@@ -128,8 +128,8 @@
         <h3 class="spec-head" title="c:\Users\Kowsalya\automation-testing\automation-testing\specs\Alto-workingModules.spec">Alto end to end testing</h3>
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
-            <li class="fail"><span class="value">3</span><span class="txt">Failed</span></li>
-            <li class="pass"><span class="value">10</span><span class="txt">Passed</span></li>
+            <li class="fail"><span class="value">1</span><span class="txt">Failed</span></li>
+            <li class="pass"><span class="value">13</span><span class="txt">Passed</span></li>
             <li class="skip"><span class="value">0</span><span class="txt">Skipped</span></li>
           </ul>
         </div>
@@ -142,7 +142,7 @@
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:03:58</span>
+        <span class="time">00:04:55</span>
       </div>
 
 	
@@ -167,8 +167,9 @@
     <div class="content">
     
   
-  <span><pre><code>        This is an script for executing following modules,
-          -IPTV-channel category, channel,package
+  <span><pre><code>        The following screipt execute the,
+          -IPTV-channel, channel category, package.
+          -Device- Tags.
 </code></pre>
 </span>
   
@@ -184,7 +185,7 @@
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">Logout</h3>
+    <h3 class="head borderBottom">Channels Module</h3>
     <span class="time">00:00:03</span>
 
 	
@@ -230,7 +231,7 @@
   
     
       <span>
-        Logout from user
+        navigate to the channels page
       </span>
     
   
@@ -243,9 +244,9 @@
     <div class="exception-container">
       <div class="exception">
         <h4 class="error-message">
-          <pre>Error: Custom selector $(.m--img-centered) is covered by other element</pre>
+          <pre>Error: Element matching text &#34;Channels&#34; is covered by other element</pre>
         </h4>
-        <pre class="stacktrace">Error: Custom selector $(.m--img-centered) is covered by other element<br/>    at _click (node_modules\taiko\lib\taiko.js:1262:11)<br/>    at async click (node_modules\taiko\lib\taiko.js:1301:5)<br/>    at async module.exports.&lt;computed&gt; (node_modules\taiko\lib\taiko.js:3522:14)</pre>
+        <pre class="stacktrace">Error: Element matching text &#34;Channels&#34; is covered by other element<br/>    at _click (node_modules\taiko\lib\taiko.js:1262:11)<br/>    at async click (node_modules\taiko\lib\taiko.js:1301:5)<br/>    at async module.exports.&lt;computed&gt; (node_modules\taiko\lib\taiko.js:3522:14)</pre>
       </div>
       
     </div>
@@ -288,13 +289,13 @@
       
         
 	
-  <div class='scenario-container failed'>
+  <div class='scenario-container passed'>
     
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">Delete the package</h3>
-    <span class="time">00:00:05</span>
+    <h3 class="head borderBottom">Login alto</h3>
+    <span class="time">00:00:20</span>
 
 	
   
@@ -312,16 +313,22 @@
   
     
   
+    <span></span>
+  
+
+  
+    
+  
     
   
   <div class='step'>
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:05</span>
+      <span class='time'>Execution Time : 00:00:09</span>
     </h5>
   
-  <div class='step-info failed'>
+  <div class='step-info passed'>
   
   <ul>
     <li class='step'>
@@ -339,7 +346,7 @@
   
     
       <span>
-        Delete package
+        Goto alto login page
       </span>
     
   
@@ -347,19 +354,194 @@
 
   
     
-        
-  <div class="error-container failed">
-    <div class="exception-container">
-      <div class="exception">
-        <h4 class="error-message">
-          <pre>Error: Custom selector $(#package-table &gt; tbody &gt; tr:nth-child(1) &gt; td:nth-child(1) &gt; label &gt; span) is covered by other element</pre>
-        </h4>
-        <pre class="stacktrace">Error: Custom selector $(#package-table &gt; tbody &gt; tr:nth-child(1) &gt; td:nth-child(1) &gt; label &gt; span) is covered by other element<br/>    at _click (node_modules\taiko\lib\taiko.js:1262:11)<br/>    at async click (node_modules\taiko\lib\taiko.js:1301:5)<br/>    at async module.exports.&lt;computed&gt; (node_modules\taiko\lib\taiko.js:3522:14)</pre>
-      </div>
-      
-    </div>
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:01</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        write username 
+      </span>
+    
+  
+    
+      <span class='parameter'>"sampleuser@arkhasystems.com"</span>
+    
+  
   </div>
 
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:08</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        write password 
+      </span>
+    
+  
+    
+      <span class='parameter'>"sample@123"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Page contains 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Dashboard"</span>
+    
+  
+  </div>
+
+  
     
     
   
@@ -397,13 +579,13 @@
       
         
 	
-  <div class='scenario-container failed'>
+  <div class='scenario-container passed'>
     
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">Edit the package</h3>
-    <span class="time">00:00:19</span>
+    <h3 class="head borderBottom">Channel Category Module</h3>
+    <span class="time">00:01:06</span>
 
 	
   
@@ -427,10 +609,10 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:19</span>
+      <span class='time'>Execution Time : 00:00:11</span>
     </h5>
   
-  <div class='step-info failed'>
+  <div class='step-info passed'>
   
   <ul>
     <li class='step'>
@@ -448,17 +630,255 @@
   
     
       <span>
-        Edit package 
+        navigate to the channel category page
       </span>
     
   
+  </div>
+
+  
     
-      <span class='parameter'>"Editedpack"</span>
     
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:13</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
   
     
       <span>
-        , and it&#39;s channels
+        Create the channel category as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"helloooo"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:20</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        modify the category name as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"HelloWorld"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:16</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        search for the category 
+      </span>
+    
+  
+    
+      <span class='parameter'>"owo"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:04</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        delete the category
       </span>
     
   
@@ -466,19 +886,302 @@
 
   
     
-        
-  <div class="error-container failed">
-    <div class="exception-container">
-      <div class="exception">
-        <h4 class="error-message">
-          <pre>Error: Custom selector $(#package - edit &gt; div &gt; div &gt; div.modal - body &gt; div: nth - child(5) &gt; div &gt; div &gt; div &gt; div &gt; div: nth - child(3) &gt; div &gt; div: nth - child(2) &gt; select &gt; option: nth - child(2)) not found</pre>
-        </h4>
-        <pre class="stacktrace">Error: Custom selector $(#package - edit &gt; div &gt; div &gt; div.modal - body &gt; div: nth - child(5) &gt; div &gt; div &gt; div &gt; div &gt; div: nth - child(3) &gt; div &gt; div: nth - child(2) &gt; select &gt; option: nth - child(2)) not found<br/>    at findElements (node_modules\taiko\lib\elementSearch.js:290:11)<br/>    at async _click (node_modules\taiko\lib\taiko.js:1217:44)<br/>    at async click (node_modules\taiko\lib\taiko.js:1301:5)<br/>    at async module.exports.&lt;computed&gt; (node_modules\taiko\lib\taiko.js:3522:14)</pre>
-      </div>
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
       
-    </div>
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">Create channel</h3>
+    <span class="time">00:00:13</span>
+
+	
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:13</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Create the channel as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"taiko"</span>
+    
+  
   </div>
 
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">Search channel</h3>
+    <span class="time">00:00:13</span>
+
+	
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:13</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        search for the channel 
+      </span>
+    
+  
+    
+      <span class='parameter'>"mo"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">Modify the channel</h3>
+    <span class="time">00:00:21</span>
+
+	
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:21</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        modify the channel name as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"demo"</span>
+    
+  
+  </div>
+
+  
     
     
   
@@ -569,303 +1272,6 @@
       <span>
         delete the created channel
       </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-	
-	</div>
-
-      
-        
-	
-  <div class='scenario-container passed'>
-    
-
-	
-  <div class="scenario-head">
-    <h3 class="head borderBottom">Search channel</h3>
-    <span class="time">00:00:03</span>
-
-	
-  
-
-	</div>
-  
-  
-
-  
-  
-
-	
-
-  
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:03</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        search for the channel 
-      </span>
-    
-  
-    
-      <span class='parameter'>"mo"</span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-	
-	</div>
-
-      
-        
-	
-  <div class='scenario-container passed'>
-    
-
-	
-  <div class="scenario-head">
-    <h3 class="head borderBottom">Modify the channel</h3>
-    <span class="time">00:00:23</span>
-
-	
-  
-
-	</div>
-  
-  
-
-  
-  
-
-	
-
-  
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:23</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        modify the channel name as 
-      </span>
-    
-  
-    
-      <span class='parameter'>"demo"</span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-	
-	</div>
-
-      
-        
-	
-  <div class='scenario-container passed'>
-    
-
-	
-  <div class="scenario-head">
-    <h3 class="head borderBottom">Create channel</h3>
-    <span class="time">00:00:20</span>
-
-	
-  
-
-	</div>
-  
-  
-
-  
-  
-
-	
-
-  
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:20</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        Create the channel as 
-      </span>
-    
-  
-    
-      <span class='parameter'>"taiko"</span>
     
   
   </div>
@@ -1206,8 +1612,8 @@
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">Channels Module</h3>
-    <span class="time">00:00:11</span>
+    <h3 class="head borderBottom">Edit the package</h3>
+    <span class="time">00:00:19</span>
 
 	
   
@@ -1231,7 +1637,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:11</span>
+      <span class='time'>Execution Time : 00:00:19</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1252,7 +1658,17 @@
   
     
       <span>
-        navigate to the channels page
+        Edit package 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Editedpack"</span>
+    
+  
+    
+      <span>
+        , and it&#39;s channels
       </span>
     
   
@@ -1301,8 +1717,8 @@
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">Channel Category Module</h3>
-    <span class="time">00:01:23</span>
+    <h3 class="head borderBottom">Delete the package</h3>
+    <span class="time">00:00:08</span>
 
 	
   
@@ -1326,7 +1742,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:18</span>
+      <span class='time'>Execution Time : 00:00:08</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1347,7 +1763,7 @@
   
     
       <span>
-        navigate to the channel category page
+        Delete package
       </span>
     
   
@@ -1376,6 +1792,42 @@
 
   
 
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">Device-Tag module</h3>
+    <span class="time">00:01:13</span>
+
+	
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
   
     
   
@@ -1406,12 +1858,8 @@
   
     
       <span>
-        Create the channel category as 
+        select the tags menu
       </span>
-    
-  
-    
-      <span class='parameter'>"helloooo"</span>
     
   
   </div>
@@ -1448,7 +1896,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:22</span>
+      <span class='time'>Execution Time : 00:00:24</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1469,12 +1917,12 @@
   
     
       <span>
-        modify the category name as 
+        create the tag as 
       </span>
     
   
     
-      <span class='parameter'>"HelloWorld"</span>
+      <span class='parameter'>"demo tag"</span>
     
   
   </div>
@@ -1511,7 +1959,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:16</span>
+      <span class='time'>Execution Time : 00:00:27</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1532,12 +1980,12 @@
   
     
       <span>
-        search for the category 
+        modify the tag name as 
       </span>
     
   
     
-      <span class='parameter'>"owo"</span>
+      <span class='parameter'>"new tag"</span>
     
   
   </div>
@@ -1574,7 +2022,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:11</span>
+      <span class='time'>Execution Time : 00:00:06</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1595,7 +2043,7 @@
   
     
       <span>
-        delete the category
+        delete the created tag
       </span>
     
   
@@ -1644,8 +2092,8 @@
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">Login alto</h3>
-    <span class="time">00:00:21</span>
+    <h3 class="head borderBottom">Logout</h3>
+    <span class="time">00:00:10</span>
 
 	
   
@@ -1663,19 +2111,13 @@
   
     
   
-    <span></span>
-  
-
-  
-    
-  
     
   
   <div class='step'>
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:09</span>
+      <span class='time'>Execution Time : 00:00:10</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1696,197 +2138,8 @@
   
     
       <span>
-        Goto alto login page
+        Logout from user
       </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:01</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        write username 
-      </span>
-    
-  
-    
-      <span class='parameter'>"sampleuser@arkhasystems.com"</span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:09</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        write password 
-      </span>
-    
-  
-    
-      <span class='parameter'>"sample@123"</span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        Page contains 
-      </span>
-    
-  
-    
-      <span class='parameter'>"Dashboard"</span>
     
   
   </div>
