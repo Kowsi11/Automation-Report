@@ -30,11 +30,11 @@
   <div class="report-overview">
     <div class="report_chart">
       <div class="chart">
-        <svg id="pie-chart" data-results="1,0,0" data-total="1">
+        <svg id="pie-chart" data-results="0,1,0" data-total="1">
           <path class="status failed" />
-          <path class="shadow failed" data-status="failed"><title>Failed: 1/1</title></path>
+          <path class="shadow failed" data-status="failed"><title>Failed: 0/1</title></path>
           <path class="status passed" />
-          <path class="shadow passed" data-status="passed"><title>Passed: 0/1</title></path>
+          <path class="shadow passed" data-status="passed"><title>Passed: 1/1</title></path>
           <path class="status skipped" />
           <path class="shadow skipped" data-status="skipped"><title>Skipped: 0/1</title></path>
         </svg>
@@ -43,14 +43,14 @@
     <div class="report_test-results">
       <div class="report_test-result specs">
           <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">1</span></div>
-          <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">1</span></div>
-          <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">0</span></div>
+          <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">0</span></div>
+          <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">1</span></div>
           <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
       </div>
       <div class="report_test-result scenarios">
-          <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">15</span></div>
-          <div class="fail scenario-stats" data-status="failed"><span class="value">1</span></div>
-          <div class="pass scenario-stats" data-status="passed"><span class="value">14</span></div>
+          <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">16</span></div>
+          <div class="fail scenario-stats" data-status="failed"><span class="value">0</span></div>
+          <div class="pass scenario-stats" data-status="passed"><span class="value">16</span></div>
           <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
       </div>
     </div>
@@ -63,15 +63,15 @@
         
         <li>
           <label>Success Rate </label>
-          <span>0%</span>
+          <span>100%</span>
         </li>
         <li>
           <label>Total Time </label>
-          <span>00:05:47</span>
+          <span>00:08:26</span>
         </li>
         <li>
           <label>Generated On </label>
-          <span>Apr 8, 2021 at 7:07pm</span>
+          <span>Apr 9, 2021 at 7:16pm</span>
         </li>
       </ul>
       
@@ -106,11 +106,11 @@
         <ul id="scenarios" class="spec-list">
         
           <a href="Alto-workingModules.html">
-            
-              <li class='failed spec-name'>
+             
+              <li class='passed spec-name'>
             
               <span id="scenarioName" class="scenarioname">Alto end to end testing</span>
-              <span id="time" class="time">00:05:42</span>
+              <span id="time" class="time">00:08:23</span>
             </li>
           </a>
           
@@ -128,8 +128,8 @@
         <h3 class="spec-head" title="c:\Users\Kowsalya\automation-testing\automation-testing\specs\Alto-workingModules.spec">Alto end to end testing</h3>
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
-            <li class="fail"><span class="value">1</span><span class="txt">Failed</span></li>
-            <li class="pass"><span class="value">14</span><span class="txt">Passed</span></li>
+            <li class="fail"><span class="value">0</span><span class="txt">Failed</span></li>
+            <li class="pass"><span class="value">16</span><span class="txt">Passed</span></li>
             <li class="skip"><span class="value">0</span><span class="txt">Skipped</span></li>
           </ul>
         </div>
@@ -142,7 +142,7 @@
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:05:42</span>
+        <span class="time">00:08:23</span>
       </div>
 
 	
@@ -169,7 +169,7 @@
   
   <span><pre><code>        The following screipt execute the,
           -IPTV-channel, channel category, package.
-          -Device- Tags.
+          -Device- Tags,iptv profile
 </code></pre>
 </span>
   
@@ -180,484 +180,13 @@
       
         
 	
-  <div class='scenario-container failed'>
-    
-
-	
-  <div class="scenario-head">
-    <h3 class="head borderBottom">IPTV Profile</h3>
-    <span class="time">00:00:07</span>
-
-	
-  
-
-	</div>
-  
-  
-
-  
-  
-
-	
-
-  
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:07</span>
-    </h5>
-  
-  <div class='step-info failed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        navigate to the profiles page
-      </span>
-    
-  
-  </div>
-
-  
-    
-        
-  <div class="error-container failed">
-    <div class="exception-container">
-      <div class="exception">
-        <h4 class="error-message">
-          <pre>Error: Element matching text &#34;Devices&#34; is covered by other element</pre>
-        </h4>
-        <pre class="stacktrace">Error: Element matching text &#34;Devices&#34; is covered by other element<br/>    at _click (node_modules\taiko\lib\taiko.js:1262:11)<br/>    at async click (node_modules\taiko\lib\taiko.js:1301:5)<br/>    at async module.exports.&lt;computed&gt; (node_modules\taiko\lib\taiko.js:3522:14)</pre>
-      </div>
-      
-    </div>
-  </div>
-
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class='step-info not-executed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        create the iptv profile as 
-      </span>
-    
-  
-    
-      <span class='parameter'>"IptvListProfile"</span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class='step-info not-executed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        modify the iptv profile as 
-      </span>
-    
-  
-    
-      <span class='parameter'>"IptvSingleChannel"</span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class='step-info not-executed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        deactivate the iptv profile
-      </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class='step-info not-executed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        activate the iptv profile
-      </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class='step-info not-executed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        deactivate the iptv profile
-      </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class='step-info not-executed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        delete the iptv profile
-      </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-	
-	</div>
-
-      
-        
-	
   <div class='scenario-container passed'>
     
 
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">Login alto</h3>
-    <span class="time">00:00:24</span>
+    <span class="time">00:00:40</span>
 
 	
   
@@ -687,7 +216,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:09</span>
+      <span class='time'>Execution Time : 00:00:17</span>
     </h5>
   
   <div class='step-info passed'>
@@ -809,7 +338,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:12</span>
+      <span class='time'>Execution Time : 00:00:20</span>
     </h5>
   
   <div class='step-info passed'>
@@ -946,8 +475,8 @@
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">Channels Module</h3>
-    <span class="time">00:00:08</span>
+    <h3 class="head borderBottom">Channel Category Module</h3>
+    <span class="time">00:01:27</span>
 
 	
   
@@ -971,7 +500,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:08</span>
+      <span class='time'>Execution Time : 00:00:19</span>
     </h5>
   
   <div class='step-info passed'>
@@ -992,7 +521,350 @@
   
     
       <span>
-        navigate to the channels page
+        navigate to the channel category page
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:16</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Create the channel category as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"helloooo"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:24</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        modify the category name as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"HelloWorld"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:02</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        delete the category
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:24</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        search for the category 
+      </span>
+    
+  
+    
+      <span class='parameter'>"hlo"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">Channels Module</h3>
+    <span class="time">00:00:14</span>
+
+	
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:14</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Select channel Menu
       </span>
     
   
@@ -1042,7 +914,7 @@
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">Create channel</h3>
-    <span class="time">00:00:32</span>
+    <span class="time">00:00:26</span>
 
 	
   
@@ -1066,7 +938,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:32</span>
+      <span class='time'>Execution Time : 00:00:26</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1240,7 +1112,7 @@
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">Modify the channel</h3>
-    <span class="time">00:00:25</span>
+    <span class="time">00:00:26</span>
 
 	
   
@@ -1264,7 +1136,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:25</span>
+      <span class='time'>Execution Time : 00:00:26</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1434,7 +1306,7 @@
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">Select sub menu</h3>
-    <span class="time">00:00:09</span>
+    <span class="time">00:00:11</span>
 
 	
   
@@ -1458,7 +1330,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:09</span>
+      <span class='time'>Execution Time : 00:00:11</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1529,7 +1401,7 @@
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">Create new package and assigning channels</h3>
-    <span class="time">00:00:27</span>
+    <span class="time">00:00:28</span>
 
 	
   
@@ -1553,7 +1425,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:27</span>
+      <span class='time'>Execution Time : 00:00:28</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1727,7 +1599,7 @@
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">Edit the package</h3>
-    <span class="time">00:00:20</span>
+    <span class="time">00:00:23</span>
 
 	
   
@@ -1751,7 +1623,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:20</span>
+      <span class='time'>Execution Time : 00:00:23</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1832,7 +1704,7 @@
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">Delete the package</h3>
-    <span class="time">00:00:10</span>
+    <span class="time">00:00:08</span>
 
 	
   
@@ -1856,7 +1728,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:10</span>
+      <span class='time'>Execution Time : 00:00:08</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1926,8 +1798,8 @@
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">Device-Tag module</h3>
-    <span class="time">00:01:11</span>
+    <h3 class="head borderBottom">IPTV Profile</h3>
+    <span class="time">00:00:16</span>
 
 	
   
@@ -1951,7 +1823,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:14</span>
+      <span class='time'>Execution Time : 00:00:16</span>
     </h5>
   
   <div class='step-info passed'>
@@ -1972,7 +1844,228 @@
   
     
       <span>
-        select the tags menu
+        navigate to the profile Menu
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">IPTV profile create and edit</h3>
+    <span class="time">00:01:54</span>
+
+	
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:43</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        create the iptv profile as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"IptvListProfile"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:38</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        modify the iptv profile as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"IptvSingleChannel"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:09</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        deactivate the iptv profile
       </span>
     
   
@@ -2010,7 +2103,279 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:22</span>
+      <span class='time'>Execution Time : 00:00:06</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        activate the iptv profile
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:09</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        deactivate the iptv profile
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:07</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        delete the iptv profile
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">Device-Tag module</h3>
+    <span class="time">00:01:14</span>
+
+	
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:12</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        select the tag menu
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:20</span>
     </h5>
   
   <div class='step-info passed'>
@@ -2073,7 +2438,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:27</span>
+      <span class='time'>Execution Time : 00:00:36</span>
     </h5>
   
   <div class='step-info passed'>
@@ -2136,7 +2501,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:06</span>
+      <span class='time'>Execution Time : 00:00:04</span>
     </h5>
   
   <div class='step-info passed'>
@@ -2206,351 +2571,8 @@
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">Channel Category Module</h3>
-    <span class="time">00:01:16</span>
-
-	
-  
-
-	</div>
-  
-  
-
-  
-  
-
-	
-
-  
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:16</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        navigate to the channel category page
-      </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:16</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        Create the channel category as 
-      </span>
-    
-  
-    
-      <span class='parameter'>"helloooo"</span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:25</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        modify the category name as 
-      </span>
-    
-  
-    
-      <span class='parameter'>"HelloWorld"</span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:16</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        search for the category 
-      </span>
-    
-  
-    
-      <span class='parameter'>"owo"</span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:01</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-      <span>
-        delete the category
-      </span>
-    
-  
-  </div>
-
-  
-    
-    
-  
-
-    
-  
-
-  
-  
-  
-  
-
-  
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-	
-	</div>
-
-      
-        
-	
-  <div class='scenario-container passed'>
-    
-
-	
-  <div class="scenario-head">
     <h3 class="head borderBottom">Logout</h3>
-    <span class="time">00:00:13</span>
+    <span class="time">00:00:14</span>
 
 	
   
@@ -2574,7 +2596,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:13</span>
+      <span class='time'>Execution Time : 00:00:14</span>
     </h5>
   
   <div class='step-info passed'>
